@@ -15,7 +15,7 @@ namespace VehicleRentalManagement
         public override void DisplayDetails()
         {
             base.DisplayDetails();
-            Console.Write($"Capacity: {Capacity} tons, Truck Type: {TruckType}, Four-Wheel Drive: {FourWheelDrive}");
+            Console.Write("Capacity: {0} tons, Truck Type: {1}, Four-Wheel Drive: {2}", Capacity, TruckType, FourWheelDrive);
         }
     }
 }

@@ -9,14 +9,14 @@ namespace VehicleRentalManagement
 {
     public class Vehicle
     {
-        private string Model { get; set; }
-        private string Manufacturer { get; set; }
-        private int Year { get; set; }
-        private decimal RentalPrice { get; set; }
+        public string Model { get; set; }
+        public string Manufacturer { get; set; }
+        public int Year { get; set; }
+        public decimal RentalPrice { get; set; }
 
         public virtual void DisplayDetails()
         {
-            Console.WriteLine($"Model: {Model}, Manufacturer: {Manufacturer}, Year: {Year}, Rental Price: {RentalPrice:C}");
+            Console.WriteLine("Model: {0}, Manufacturer: {1}, Year: {2}, Rental Price: {3}", Model, Manufacturer, Year, RentalPrice);
         }
     }
 }

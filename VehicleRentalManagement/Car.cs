@@ -16,7 +16,7 @@ namespace VehicleRentalManagement
         public override void DisplayDetails()
         {
             base.DisplayDetails();
-            Console.WriteLine($"Seats: {Seats}, Engine Type: {EngineType}, Transmission: {Transmission}, Convertible: {Convertible}");
+            Console.WriteLine("Seats: {0}, Engine Type: {1}, Transmission: {2}, Convertible: {3}", Seats, EngineType, Transmission, Convertible);
         }
 
     }

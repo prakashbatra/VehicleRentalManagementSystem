@@ -16,7 +16,7 @@ namespace VehicleRentalManagement
         public override void DisplayDetails()
         {
             base.DisplayDetails();
-            Console.WriteLine($"Engine Capacity: {EngineCapacity} cc, Fuel Type: {FuelType}, Has Fairing: {HasFairing}");
+            Console.WriteLine("Engine Capacity: {0} cc, Fuel Type: {1}, Has Fairing: {2}", EngineCapacity, FuelType, HasFairing);
         }
     }
 }
