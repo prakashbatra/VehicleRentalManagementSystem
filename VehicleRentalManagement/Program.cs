@@ -15,7 +15,7 @@ namespace VehicleRentalManagement
 
             // Create various Vehicle instances (Car, Truck, Motorcycle)
             Vehicle car1 = new Car ("Model S", "Maruti", 2023, 150, 4, "Diesel", "Manual", false);
-            Vehicle car2 = new Car("Model P", "Honda", 2019, 100, 4, "Gas", "Auto", true);
+            Vehicle car2 = new Car ("Model P", "Honda", 2019, 100, 4, "Gas", "Auto", true);
             Vehicle truck1 = new Truck ("F-150", "Tata", 2021, 120, 5, "Pickup", true );
             Vehicle bike1 = new Motorcycle ("bajaj","Super",2020,85,120,"Petrol",true);
 
@@ -24,7 +24,7 @@ namespace VehicleRentalManagement
             agency.AddVehicle(car2);
             agency.AddVehicle(truck1);
             agency.AddVehicle(bike1);
-            Console.WriteLine();// Print a blank line for better readability
+            Console.WriteLine();// To print a blank line 
 
             // Display the current fleet of vehicles
             agency.DisplayFleet();
@@ -40,8 +40,8 @@ namespace VehicleRentalManagement
             // Rent out a vehicle (truck1)
             agency.RentVehicle(truck1);
             Console.WriteLine("Total Revenue : {0}", agency.TotalRevenue);// Display total revenue after renting truck1
-            Console.WriteLine(); // Print a blank line for better readability
-
+            Console.WriteLine(); // To print a blank line
+            
             // Display the current fleet of vehicles
             agency.DisplayFleet();
 
